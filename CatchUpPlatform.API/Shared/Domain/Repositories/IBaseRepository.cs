@@ -1,4 +1,4 @@
-namespace CatchUpPlatform.API.Shared.Domain.Repository;
+namespace CatchUpPlatform.API.Shared.Domain.Repositories;
 
 public interface IBaseRepository<TEntity>
 {
