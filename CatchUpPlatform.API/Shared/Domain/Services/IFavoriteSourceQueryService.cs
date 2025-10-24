@@ -7,4 +7,5 @@ public interface IFavoriteSourceQueryService
 {
     Task<IEnumerable<FavoriteSource?>> Handle(GetAllFavoriteSourcesByNewsApiKeyQuery query);
     Task<FavoriteSource?> Handle(GetFavoriteSourceByNewsApiKeyAndSourceIdQuery query);
+    Task<FavoriteSource?> Handle(GetFavoriteSourceByIdQuery query);
 }
